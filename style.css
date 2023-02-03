@@ -42,13 +42,13 @@ nav ul li a:hover{
 }
 
 .background-image{
-    width: 1716px;
+    width: 100%;
     height: 700px;
     background-image: url(theater-image-background.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow-y: hidden;
    
 }
 h1{
@@ -76,7 +76,7 @@ section{
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 50px;
-    width: 90.5%;
+    width: 800px;
     height: 40px;
     border: 1px solid gray;
     background-color: rgb(225, 229, 233);
