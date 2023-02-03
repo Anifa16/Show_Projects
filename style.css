@@ -5,15 +5,100 @@
 
 }
 nav{
-    background-color: gray
-    margin: 0px;
+    background-color: gray;
+    overflow: hidden;
 }
 .logo{
-    color:white ;
+    display: block;
+    justify-items: auto;
+    margin-top: 10px;
+    text-align: left;
+    color: white;
 }
+
+    
 .nav-links ul{
-    list-style-type: none;
-    display: flex;
-   justify-content: left;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 
 }
+ul li{
+    float: right;
+    list-style-type: none;
+
+}
+ul li a{
+    display: block;
+    padding: 18px;
+    color: white;
+}
+.background-image{
+    width: max;
+    height: 500px;
+    background-image: url(theater-image-background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+   
+}
+h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    font-size: 60px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 250px 50px;
+    text-align: center;
+    
+        
+}
+section{
+    border: 9px solid #73AD21;
+    width: 50%;
+    margin-left: 500px;
+    background-color: #73AD21;
+
+}
+.date{
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+    border: 1px solid gray;
+    background-color: rgb(225, 229, 233);
+    margin-right: 90px;
+
+
+}
+.cal{
+    display: block;
+    margin-left: 300px;
+    margin-right: 400px;
+    margin-top: 10px;
+
+}
+.cali{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.cali .ps{
+    display: block;
+
+}
+.cali button{
+    margin-bottom: 30px;
+
+}
+
+
+
+
+
+
+    
+  
