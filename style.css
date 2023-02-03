@@ -1,41 +1,49 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    
 }
+
 nav{
-    background-color: gray;
-    overflow: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 45px;
+   padding-left: 8% ;
+   padding-right: 8%;
+   background-color: black;
 }
 .logo{
-    display: block;
-    justify-items: auto;
-    margin-top: 10px;
-    text-align: left;
     color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
 }
 
-    
-.nav-links ul{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-
-}
-ul li{
-    float: right;
+nav ul li{
     list-style-type: none;
+    display: inline-block; 
+    padding: 10px 25px;
 
 }
-ul li a{
-    display: block;
-    padding: 18px;
+nav ul li a{
     color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
 }
+nav ul li a:hover{
+    color: #21161a;
+    transition: .4s;
+    
+}
+
 .background-image{
-    width: max;
-    height: 500px;
+    width: 1716px;
+    height: 700px;
     background-image: url(theater-image-background.png);
     background-size: cover;
     background-position: center;
@@ -47,8 +55,8 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    color:white;
-    font-size: 60px;
+    color:rgb(246, 241, 241);
+    font-size: 100px;
     margin-top: auto;
     margin-bottom: auto;
     padding: 250px 50px;
@@ -57,42 +65,72 @@ h1{
         
 }
 section{
-    border: 9px solid #73AD21;
+    border: 9px solid #f6f6f5;
     width: 50%;
-    margin-left: 500px;
-    background-color: #73AD21;
+    margin-left: 400px;
+    margin-right: 400px;
 
 }
 .date{
     display: block;
+    margin-left: 40px;
+    margin-right: 40px;
     margin-top: 50px;
-    width: 100%;
+    width: 90.5%;
+    height: 40px;
     border: 1px solid gray;
     background-color: rgb(225, 229, 233);
     margin-right: 90px;
+    border-radius: 3px;
 
 
 }
+.date p{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
 .cal{
     display: block;
-    margin-left: 300px;
-    margin-right: 400px;
+    margin-left: .1;
+    margin-right: 1%;
     margin-top: 10px;
+
+}
+.cali img{
+    margin-left: 10px;
+    width: 250px;
 
 }
 .cali{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    width: 100%;
+    gap: 36px;
 }
 .cali .ps{
-    display: block;
-
+    display: inline-block block;
+    justify-content: space-between;
 }
+
 .cali button{
     margin-bottom: 30px;
+    border-radius: 3px;
+    border: 2px;
+    border-color: rgb(99, 95, 95);
 
+}
+hr{
+    margin: 10px;
+    width: 90%;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(100, 98, 98);
+}
+footer{
+    background-color: black;
+    padding-top: 100;
 }
 
 
